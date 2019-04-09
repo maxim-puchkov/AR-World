@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841908D32133C28800D1D4EC /* trench100free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841908D22133C28800D1D4EC /* trench100free.ttf */; };
+		847FC99821363C7D005E157F /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FC99721363C7D005E157F /* Graph.swift */; };
+		847FC99A213641A6005E157F /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FC999213641A6005E157F /* Cache.swift */; };
+		84957B5D212BEEF900454E07 /* GoogleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84957B5C212BEEF900454E07 /* GoogleClient.swift */; };
+		84957B5F212BEF0D00454E07 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84957B5E212BEF0D00454E07 /* ResponseModels.swift */; };
+		84957B61212BEF2200454E07 /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84957B60212BEF2200454E07 /* Locator.swift */; };
+		84B7BBE0225C521400E4D1A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7BBDF225C521400E4D1A9 /* ViewController.swift */; };
 		84D80E9220E41D3E00782D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D80E9120E41D3E00782D84 /* AppDelegate.swift */; };
 		84D80E9420E41D3E00782D84 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D80E9320E41D3E00782D84 /* art.scnassets */; };
-		84D80E9620E41D3E00782D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D80E9520E41D3E00782D84 /* ViewController.swift */; };
 		84D80E9920E41D3E00782D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D80E9720E41D3E00782D84 /* Main.storyboard */; };
 		84D80E9B20E41D4000782D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D80E9A20E41D4000782D84 /* Assets.xcassets */; };
 		84D80E9E20E41D4000782D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D80E9C20E41D4000782D84 /* LaunchScreen.storyboard */; };
@@ -35,10 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841908D22133C28800D1D4EC /* trench100free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = trench100free.ttf; sourceTree = "<group>"; };
+		847FC99721363C7D005E157F /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		847FC999213641A6005E157F /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		84957B5C212BEEF900454E07 /* GoogleClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleClient.swift; sourceTree = "<group>"; };
+		84957B5E212BEF0D00454E07 /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		84957B60212BEF2200454E07 /* Locator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locator.swift; sourceTree = "<group>"; };
+		84B7BBDF225C521400E4D1A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84D80E8E20E41D3E00782D84 /* Augmented World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Augmented World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D80E9120E41D3E00782D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D80E9320E41D3E00782D84 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		84D80E9520E41D3E00782D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84D80E9820E41D3E00782D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D80E9A20E41D4000782D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D80E9D20E41D4000782D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841908D12133C27A00D1D4EC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				841908D22133C28800D1D4EC /* trench100free.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		84D80E8520E41D3E00782D84 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +119,19 @@
 		84D80E9020E41D3E00782D84 /* Augmented World */ = {
 			isa = PBXGroup;
 			children = (
+				841908D12133C27A00D1D4EC /* Fonts */,
 				84D80E9120E41D3E00782D84 /* AppDelegate.swift */,
 				84D80E9320E41D3E00782D84 /* art.scnassets */,
-				84D80E9520E41D3E00782D84 /* ViewController.swift */,
+				84B7BBDF225C521400E4D1A9 /* ViewController.swift */,
+				847FC999213641A6005E157F /* Cache.swift */,
+				847FC99721363C7D005E157F /* Graph.swift */,
 				84D80E9720E41D3E00782D84 /* Main.storyboard */,
 				84D80E9A20E41D4000782D84 /* Assets.xcassets */,
 				84D80E9C20E41D4000782D84 /* LaunchScreen.storyboard */,
 				84D80E9F20E41D4000782D84 /* Info.plist */,
+				84957B5C212BEEF900454E07 /* GoogleClient.swift */,
+				84957B5E212BEF0D00454E07 /* ResponseModels.swift */,
+				84957B60212BEF2200454E07 /* Locator.swift */,
 			);
 			path = "Augmented World";
 			sourceTree = "<group>";
@@ -138,6 +164,7 @@
 				84D80E8A20E41D3E00782D84 /* Sources */,
 				84D80E8B20E41D3E00782D84 /* Frameworks */,
 				84D80E8C20E41D3E00782D84 /* Resources */,
+				84D80EC120E4250C00782D84 /* Increment Build Number */,
 			);
 			buildRules = (
 			);
@@ -233,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D80E9420E41D3E00782D84 /* art.scnassets in Resources */,
+				841908D32133C28800D1D4EC /* trench100free.ttf in Resources */,
 				84D80E9E20E41D4000782D84 /* LaunchScreen.storyboard in Resources */,
 				84D80E9B20E41D4000782D84 /* Assets.xcassets in Resources */,
 				84D80E9920E41D3E00782D84 /* Main.storyboard in Resources */,
@@ -255,12 +283,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84D80EC120E4250C00782D84 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84D80E8A20E41D3E00782D84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D80E9620E41D3E00782D84 /* ViewController.swift in Sources */,
+				847FC99A213641A6005E157F /* Cache.swift in Sources */,
+				847FC99821363C7D005E157F /* Graph.swift in Sources */,
+				84957B61212BEF2200454E07 /* Locator.swift in Sources */,
+				84957B5D212BEEF900454E07 /* GoogleClient.swift in Sources */,
+				84957B5F212BEF0D00454E07 /* ResponseModels.swift in Sources */,
+				84B7BBE0225C521400E4D1A9 /* ViewController.swift in Sources */,
 				84D80E9220E41D3E00782D84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,9 +491,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Augmented-World";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.AR-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,9 +509,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.Augmented-World";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maximpuchkov.AR-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
